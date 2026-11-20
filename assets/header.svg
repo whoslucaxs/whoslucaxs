@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-label="NYX developer profile banner">
+ <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11121d"/><stop offset="0.55" stop-color="#1d1a27"/><stop offset="1" stop-color="#38272d"/></linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd2aa"/><stop offset="1" stop-color="#e86f58"/></linearGradient>
+  <linearGradient id="type" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ffd8b7"/><stop offset="1" stop-color="#fa8f77"/></linearGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#f4ad92" stroke-opacity=".07"/></pattern>
+  <clipPath id="main"><rect width="1200" height="350" rx="16"/></clipPath>
+ </defs>
+ <g clip-path="url(#main)">
+ <rect width="1200" height="350" fill="url(#bg)"/><rect width="1200" height="350" fill="url(#grid)"/>
+ <circle cx="991" cy="172" r="135" fill="url(#sun)" opacity=".88"/>
+ <g fill="#2b2532" opacity=".48"><rect x="845" y="188" width="300" height="9"/><rect x="845" y="210" width="300" height="11"/><rect x="845" y="239" width="300" height="17"/><rect x="845" y="275" width="300" height="23"/></g>
+ <path d="M765 337L837 285L880 309L939 266L1002 314L1060 277L1138 335Z" fill="#25212c" opacity=".96"/>
+ <rect x="30" y="28" width="1140" height="294" rx="11" fill="none" stroke="#f6af90" stroke-opacity=".34"/>
+ <path d="M30 66H1170" stroke="#f6af90" stroke-opacity=".23"/>
+ <circle cx="53" cy="47" r="5" fill="#e98677"/><circle cx="72" cy="47" r="5" fill="#e8b078"/><circle cx="91" cy="47" r="5" fill="#9fa68c"/>
+ <text x="118" y="52" font-family="Consolas,monospace" font-size="13" fill="#a49ca6">nyx@terminal: ~/profile</text>
+ <text x="1129" y="52" font-family="Consolas,monospace" font-size="13" fill="#a49ca6" text-anchor="end">● online</text>
+ <text x="72" y="117" font-family="Consolas,monospace" font-size="18" fill="#f4a88b">~ $ whoami</text>
+ <text x="69" y="219" font-family="Arial,Helvetica,sans-serif" font-size="112" font-weight="800" letter-spacing="-7" fill="url(#type)">NYX<tspan fill="#f6b18f">_</tspan></text>
+ <text x="76" y="258" font-family="Consolas,monospace" font-size="18" fill="#f0dfd6">LUCAS  /  SOFTWARE DEVELOPER</text>
+ <text x="76" y="289" font-family="Consolas,monospace" font-size="14" fill="#b9adb1">game systems  ·  cryptography  ·  embedded  ·  ai</text>
+ <path d="M77 307H568" stroke="#e99581" stroke-opacity=".38"/>
+ <text x="1129" y="303" font-family="Consolas,monospace" font-size="13" fill="#f8c6a7" text-anchor="end">BUILD / EXPERIMENT / REPEAT</text>
+ </g>
+</svg>
